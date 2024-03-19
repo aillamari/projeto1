@@ -17,3 +17,10 @@ body{
         --botao-inativo: rgba(58, 55, 94, 0.5);
         --texto-fundo: rgba(58, 55, 94, 0.3);
 }
+
+.conteudo-princial{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
