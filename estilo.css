@@ -18,13 +18,13 @@ body{
         --texto-fundo: rgba(58, 55, 94, 0.3);
 }
 
-.conteudo-princial{
+.conteudo-principal{
    display: flex;
    flex-direction: column;
    justify-content: center;
    align-items: center;
 }
 
-.conteudo-princial span{
+.conteudo-principal span{
   color:#8f2389
 }
