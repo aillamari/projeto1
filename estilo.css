@@ -28,3 +28,12 @@ body{
 .conteudo-principal span{
   color:#8f2389
 }
+
+.botao{
+  font-size: 18%;
+  background-color: var(--botao-inativo);
+  padding: 1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
