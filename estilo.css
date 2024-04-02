@@ -47,7 +47,7 @@ body{
 .botoes{
   display: block;
 }
- .botoes:first-child{
+ .botao:first-child{
   border: 40px 40px 0 0;
  }
 
