@@ -43,3 +43,7 @@ body{
   border-right: 2x solid var(--botao-ativo)
   border-top: none;
 }
+
+.botoes{
+  display: flex;
+}
