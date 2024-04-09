@@ -1,1 +1,1 @@
-alert("linda")
+const botoes = document.querySelector("botao")
