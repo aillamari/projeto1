@@ -55,4 +55,6 @@ body{
   .botoes{
   display: flex;
   }
+  .botao:first-child{
+    border: 0px 40px 0 0;
 }
