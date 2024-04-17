@@ -2,11 +2,9 @@
 
 body{
   font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
   font-weight: 300;
   font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+  back
 }
 
 :root{
@@ -77,4 +75,8 @@ body{
 .botao:last-child{
     border-radius: 0px 40px 0 0;
 }
+}
+.aba-conteudo-titulo-segundario{
+  color: var(--verde);
+  text-transform: uppercase;
 }
