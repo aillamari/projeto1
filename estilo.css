@@ -64,6 +64,11 @@ body{
   font-size: 28px;
 }
 
+.aba-conteudo-titulo-secundario{
+  color: var(--verde);
+  text-transform: uppercase;
+}
+
 @media screen and (min-width: 768px){
   .botoes{
   display: flex;
@@ -75,8 +80,4 @@ body{
 .botao:last-child{
     border-radius: 0px 40px 0 0;
 }
-}
-.aba-conteudo-titulo-secundario{
-  color: var(--verde);
-  text-transform: uppercase;
 }
