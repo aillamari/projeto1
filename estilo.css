@@ -63,7 +63,7 @@ body{
 .aba-conteudo{
   display: none;
 }
- .ativo{
+.ativo{
   background-color: var(--botao-ativo);
   border-bottom: 4px solid var(var(--verde))
 }
