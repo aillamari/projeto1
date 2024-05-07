@@ -4,13 +4,13 @@ body{
   font-family: "Open Sans", sans-serif;
   font-weight: 300;
   font-style: normal;
-  background: rgb(190, 153, 195);
+  background: rgb(224, 215, 226);
   color: #49438b;
 
 }
 
 :root{
-        --cor-de-fundo: #b56cc6;
+        --cor-de-fundo: #f5f0f7;
         --verde: #ae57ff;
         --branco: #8f2389;
         --botao-ativo: #49438b;
