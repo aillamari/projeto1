@@ -15,7 +15,7 @@ for(let i =0;i<botoes.length;i++){
  const tempoObjetivo1 = new Date ("2024-10-05T00:00:00")
  let tempoAtual = new Date()
 
- contador[0].textContent = ((tempoObjetivo1 - tempoAtual)/1000/60/60/24)
+ contador[0].textContent = calculaTempo(tempoObjetivo1)
 
  function calculaTempo(tempoObjetivo){ 
     let tempoAtual = new Date();
