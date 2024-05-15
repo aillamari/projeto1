@@ -19,6 +19,9 @@ for(let i =0;i<botoes.length;i++){
  let tempoAtual = new Date()
 
  contador[0].textContent = calculaTempo(tempoObjetivo1)
+ contador[1].textContent = calculaTempo(tempoObjetivo1)
+ contador[2].textContent = calculaTempo(tempoObjetivo1)
+ contador[3].textContent = calculaTempo(tempoObjetivo1)
 
  function calculaTempo(tempoObjetivo){ 
     let tempoAtual = new Date();
