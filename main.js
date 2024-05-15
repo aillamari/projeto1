@@ -19,7 +19,7 @@ for(let i =0;i<botoes.length;i++){
  let tempoAtual = new Date()
    const tempos = [tempoObjetivo1, tempoObjetivo2, tempoObjetivo3, tempoObjetivo4]
    
-   function atualizaCromometro(){ 
+   Function atualizaCromometro(){ 
    
     for (leti=0; i<contadores.length;i++){
         contador[i]. textContent = calculaTempo(tempos[])
