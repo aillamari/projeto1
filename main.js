@@ -19,13 +19,7 @@ for(let i =0;i<botoes.length;i++){
  let tempoAtual = new Date()
    const tempos = [tempoObjetivo1, tempoObjetivo2, tempoObjetivo3, tempoObjetivo4]
    
-   Function atualizaCromometro(){ 
    
-    for (leti=0; i<contadores.length;i++){
-        contador[i]. textContent = calculaTempo(tempos[])
-    }
-   }
-
  contador[0].textContent = calculaTempo(tempoObjetivo1)
  contador[1].textContent = calculaTempo(tempoObjetivo1)
  contador[2].textContent = calculaTempo(tempoObjetivo1)
@@ -47,4 +41,11 @@ for(let i =0;i<botoes.length;i++){
    
     
     return dias + " dias " + horas + " horas " + minutos + " minutos " + segundos + " segundos " 
+
  }
+ Function atualizaCromometro(){ 
+   
+    for (leti=0; i<contadores.length;i++){
+        contador[i]. textContent = calculaTempo(tempos[])
+    }
+   }
