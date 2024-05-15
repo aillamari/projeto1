@@ -17,6 +17,14 @@ for(let i =0;i<botoes.length;i++){
  const tempoObjetivo3 = new Date ("2024-02-05T00:00:00");
  const tempoObjetivo4 = new Date ("2024-02-05T00:00:00");
  let tempoAtual = new Date()
+   const tempos = [tempoObjetivo1, tempoObjetivo2, tempoObjetivo3, tempoObjetivo4]
+   
+   Function atualizaCromometro(){ 
+   
+    for (leti=0; i<contadores.length;i++){
+        contador[i]. textContent = calculaTempo(tempos[])
+    }
+   }
 
  contador[0].textContent = calculaTempo(tempoObjetivo1)
  contador[1].textContent = calculaTempo(tempoObjetivo1)
@@ -24,6 +32,7 @@ for(let i =0;i<botoes.length;i++){
  contador[3].textContent = calculaTempo(tempoObjetivo1)
 
  function calculaTempo(tempoObjetivo){ 
+
     let tempoAtual = new Date();
     let temmpoFinal = tempoObjetivo-tempoAtual;
     let segundos = Math.floor (temmpoFinal/1000);
